@@ -1,0 +1,33 @@
+Make a program to read the data of N products (N provided by the user).
+At the end, show the price tag of each product in the same order in which they were entered.
+
+Every product has a name and price. Imported products have a customs fee,
+and used products have a manufacturing date. This specific information must be added to the
+price tag as shown in the example (next page). For imported products, the customs fee must
+be added to the final price of the product.
+
+// Output terminal:
+
+Enter the number of products: 3
+
+Product #1 data:
+Common, used or imported (c/u/i)? i
+Name: Tablet
+Price: 260
+Customs fee: 20
+
+Product #2 data:
+Common, used or imported (c/u/i)? c
+Name: Notebook
+Price: 1100
+
+Product #3 data:
+Common, used or imported (c/u/i)? u
+Name: iPhone
+Price: 400
+Manufacture date (DD/MM/YYYY): 15/03/2017
+
+PRICE TAGS:
+Tablet $280.0 (Custom fee: $20.0)
+Notebook $1100.0
+iPhone (used) $400.0 (Manufacture date: $15/03/2017)
